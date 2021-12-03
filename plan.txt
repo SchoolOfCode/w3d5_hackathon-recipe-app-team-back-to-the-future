@@ -1,0 +1,22 @@
+*Brief plan
+ Random recipe generator app
+  *random generator button
+    *Recipe name
+    *recipe description
+    *picture of recipe food
+    *serving size
+    *cooking time/preparation time
+    *recipe difficulty indicator
+    *ingredients
+    *recipe instructions
+    *nutrient values
+    
+
+    *How to improve later on
+ *A button to save recipes 
+ *Where to save (link?)
+ *login account? button?
+ *print recipe button
+ *review list
+ *author name of recipe
+ *create a button for generating a shopping list items for recipe 
