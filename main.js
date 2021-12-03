@@ -12,7 +12,7 @@ function handleInputChange() {}
 
 
 async function fetchRecipe() {
-    const respone = await fetch("https://api.edamam.com/api/recipes/v2?type=public&q=potato&app_id=740fa198&app_key=de153b0e2a49cf4512763c34501b10f1&time=20-60&imageSize=REGULAR");
+    const respone = await fetch("https://api.edamam.com/api/recipes/v2?type=public&q=potato&app_id=740fa198&app_key=de153b0e2a49cf4512763c34501b10f1&time=20-60&imageSize=REGULAR&random=true");
     const data = await respone.json();
     console.log(data);
     const recipe = data.hits[0]["recipe"];
