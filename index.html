@@ -3,14 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fetch</title>
+    <title>The Random Recipe Generator app</title>
+    <link rel="stylesheet" href= "style.css">
   </head>
   <body>
+    <nav>
+      <button id="login">Account login</button>
+      <button id="Register">Signup</button>
+       <button id="search">Search</button>
+     </nav>
+
+    <div class="header">
+  <div class="container">
+    <h1 class="header header__title">The Random Recipe Generator app</h1>
+    <h2 class="header__subtitle">Don't know what to make to eat? Don't worry, the random recipe generator app can help!</h2>
+</div>
+ 
+    <section input aria-label="food-input" id="food-input">
+    <button id="recipeGeneratorButton">Recipe Generator</button>
+  </section>
+
     <section id="recipe-section">
-      <h2 class="section-heading">Welcome to the Recipe Finder!</h2>
-      <input aria-label="food-input" id="food-input" />
-      <button id="recipe-button">Give me a recipe!</button>
-      <a id="recipe-label"></a>
+      <img id="recipe-Image" src="https://via.placeholder.com/300x300" alt="Recipe Image">
+      <span class="dot serving-size">serving size</span>
+      <span class="dot time">time</span>
+      <span class="dot meal-type">meal type</span>
+      <h3 class="recipe-name"></h3>
+
+      <div class="Recipe-Description">Description</div>
+      <ul class="ingredients">Ingredients List</ul>
+      <div class="recipe-instructions">Recipe Method</div>
+     <ul class="favourite-recipes">Favourite Recipes</ul>
+        
     </section>
     <script src="./main.js"></script>
   </body>

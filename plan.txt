@@ -1,0 +1,35 @@
+*Brief plan
+ Random POTATO recipe generator app
+  *random generator button
+    *Recipe name
+    *recipe description
+    *picture of recipe food
+    *serving size
+    *cooking time/preparation time
+    *recipe difficulty indicator
+    *ingredients
+    *recipe instructions
+    *nutrient values
+    
+
+    *How to improve later on
+ *A button to save recipes 
+ *Where to save (link?)
+ *login account? button?
+ *print recipe button
+ *review list
+ *author name of recipe
+ *create a button for generating a shopping list items for recipe 
+
+
+ API INFO:
+ *Application ID - 740fa198
+ *Application Keys - de153b0e2a49cf4512763c34501b10f1	
+
+ Request URL: https://api.edamam.com/api/recipes/v2?type=public&q=potato&app_id=740fa198&app_key=de153b0e2a49cf4512763c34501b10f1&imageSize=LARGE
+
+Random Notes
+ url&q=potato....
+ url&q=variable....
+ variable = math random array
+ array (potato, tomato, tofu)
