@@ -3,21 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Random Potato Recipe Generator</title>
+    <title>The Random Recipe Generator app</title>
     <link rel="stylesheet" href= "style.css">
   </head>
   <body>
+    <div class="header">
+  <div class="container">
+    <a href="./"><h1 class="header header__title">The Random Recipe Generator app</h1></a>
+    <h2 class="header__subtitle">Don't know what to make to eat? Don't worry, the random recipe generator app can help!</h2>
+</div>
     <nav>
      <button id="login">Account login</button>
      <button id="Register">Signup</button>
+      <button id="search">Search</button>
     </nav>
-    <h1>Random Potato Recipe Generator</h1>
+ 
+    <section input aria-label="food-input" id="food-input">
     <button id="recipeGeneratorButton">Recipe Generator</button>
+  </section>
+
     <section id="recipe-section">
       <img id="recipe-Image" src="https://via.placeholder.com/600x600" alt="Recipe Image">
-      <h2 class="Recipe-Description"></h2>
-      <input aria-label="food-input" id="food-input" />
-      <button id="recipe-button">Give me a recipe!</button>
+      <span class="dot serving size">serving size</span>
+      <span class="dot cooking and preparation time">Cook, prep</span>
+      <span class="dot recipe difficulty indicator">difficulty</span>
+      <div class="recipe name"></div>
+      <div class="Recipe-Description">Description>
+      <div class="ingredients">Ingredients List>
+      <div class="recipe instructions">Recipe Method>
+        <div class="favourite recipes">Favourite Recipes>
+        </div>
       <a id="recipe-label"></a>
     </section>
     <script src="./main.js"></script>
